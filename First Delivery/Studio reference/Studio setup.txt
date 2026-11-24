@@ -1,0 +1,126 @@
+YOUR MAIL IS SCREAMING
+
+MIDNIGHT PARCEL TERMINAL
+Open the OPEN GAME shortcut in C:\Roblox and press F5. You arrive in the
+station waiting room. Two couriers join the same numbered booth and read
+the case notes. Both must be present to complete the house.
+
+DEAD-LETTER HOUSE
+The reader relays a witness statement from the ivory desk. The keyholder
+matches its meaning to a seal. Roles reverse in the next room. Each room
+draws a clue and gives the pair 105 seconds. A wrong answer wakes the
+keeper, costs five seconds and requires the reader to relay the clue again.
+The three rooms pay 15, 20 and 25 coins per courier. Closing the case
+qualifies for the shared daily stamp. Classic Dispatch still offers the
+original rooftop shift. Jump to stand up from a waiting-room bench.
+
+LOBBY DESK
+Invite opens Roblox's friend invitation prompt when the client supports it.
+Daily grants 10, 15, 25, 35, 50, 75 and 120 post coins over seven claims.
+One claim per UTC date. Missed dates preserve your place in the cycle.
+Spin gives one free turn per UTC date. The eight equally likely wedges
+pay 5, 10, 15, 5, 30, 10, 15 and 50 coins. A paid ticket buys another turn.
+Shop sells coin packs. Troll sells a scare telegram; press Send to play
+the surprise for everyone currently in the lobby.
+
+ROBLOX PRODUCT SETUP
+Studio runs offer labeled, free purchase demos. The live shop needs four
+developer products owned by this published experience. In Creator
+Dashboard > Monetization > Developer Products, create these products:
+  Small   100 post coins        9 Robux
+  Bundle  400 post coins       29 Robux
+  Spin    1 wheel ticket        5 Robux
+  Horn    1 scare telegram     35 Robux
+Set each id in ReplicatedStorage > TerminalCatalog inside the place and
+save/publish it. Dashboard prices determine the actual charge. The live
+client requests Roblox's price for each product. Paid wheel purchases
+and ticket use depend on the player's paid random item eligibility.
+Use a capacity of 40 in the published place. Eight couriers can be
+running four independent tours while others wait at the station.
+
+
+CLASSIC SHIFTS
+The Classic Dispatch booth leads to the original map, locker and jobs.
+The maintenance bridge on the left keeps both parcels. The yellow OPEN HERE
+pad spends one parcel to build your selected shortcut. A spring sends its
+opener across immediately. Other couriers can ride it by using the pad's
+prompt. Deliver at the red mailbox for 10 coins per remaining parcel.
+When a teammate delivers after using your shortcut you earn 5 coins, once
+for that teammate that shift, even if your receipt is already on screen.
+
+The spring's squeal draws the Unclaimed up the fire escape. Get clear of
+the yellow pad when the streetlight blinks. The creature takes one parcel
+on contact and returns you to the last safe roof. With one parcel left you
+can still finish. After it descends, the shared spring stays quiet.
+
+THE DISPATCH BOARD
+The teal board to the right of the counter opens before anyone picks up.
+It shows your record, equipment and return-address clue. Choosing a route
+changes the crew job. Your parcel type and wrapping apply to you. Choose
+Done and pick up at the counter to begin. Each new shift defaults to Morrow
+rooftops. Your published courier record remembers your equipment choices.
+
+ROUTE CARDS AND THE MISPRINT OFFICE
+Open Routes for your next punch. Record shows your whole card. Earn a
+punch for handing in two parcels, delivering after riding a spring or
+crossing a folding bridge, and delivering within 25 seconds of your own
+pickup. A shift can qualify for several punches. Spare punches carry
+forward. Each set pays 15 coins. Your title changes at 1, 3 and 6 cards.
+
+Your first card unlocks the Misprint Office. Choose it under Routes.
+Look at the destination on your box or HUD when you pick up. Cross to the
+three sorting windows and stamp your manifest at Moon, Moth or Match.
+Take the stamped parcel to the red mailbox for the usual pay plus 5 coins.
+
+Spend earned coins under Locker. Firefly foil costs 45 and Midnight foil
+costs 100. Buying equips a wrap, and you can switch owned wraps for free.
+
+3 successful shifts     Pizza wrapping and Bellwether Mall
+5 successful shifts     Quiet folding bridge (three seconds to unfold)
+3 daily stamps          Airmail wrapping
+
+One delivery counts as one successful shift, including solo runs. Mall
+deliveries go through a shutter that opens for 3.5 seconds in every 10.
+Bring both parcels to today's alternate mailbox within 30 seconds of the
+first pickup for one stamp per UTC day. The mailbox moves on a three-day
+rotation. Regular deliveries always count toward unlocks.
+
+Earn a daily stamp on two different dates within a Mondayâ€“Sunday UTC
+week to collect its dated postmark print. Record shows the newest four
+prints and the total in your collection. Equip Collector's postmark in
+Locker to wear your most recent print on your parcels.
+
+There's one dead letter on each district's receiving roof. Search while
+carrying a delivery. The board tracks the letters and reveals the final
+job when you've read both. Choose that job, take the letter at dispatch,
+and find the uniform beside the Dead Letter Office on the receiving roof.
+
+FILES
+The OPEN GAME shortcut points to First Delivery\Your Mail Is Screaming.rbxlx.
+All game logic is embedded in that place. The Original bridge prototype file
+in Studio reference is the earlier bridge-only milestone.
+
+Explorer in the current place
+  Workspace > Midnight Terminal                Editable station, NPCs and boarding desks
+  ReplicatedStorage > TerminalCatalog            Developer product IDs and reward table
+  ServerScriptService > Terminal                 Boarding, transactions and lobby rewards
+  ServerScriptService > ParcelTour               Independent three-district crew runs
+  ServerScriptService > PostalScenery            Shared world and character construction
+  StarterPlayer > StarterPlayerScripts > TerminalUI   Lobby menus, invitations and handbook
+  Workspace > NightPost                        Original roofs, counter and mailbox
+  ServerScriptService > Shift                  Shift, inventory, interaction and payout
+  ServerScriptService > Depot                  Interactive props, mall and shortcuts
+  ServerScriptService > Unclaimed              Uniform, sounds and waypoint patrol
+  ServerScriptService > CourierRecords         Coins, stamps, milestones and letters
+  StarterPlayer > StarterPlayerScripts > ShiftHUD   HUD and dispatch board
+  StarterPlayer > StarterPlayerScripts > Mailroom   Printed receipts, parcel labels and audio
+
+The adjacent .luau files are readable copies of those scripts. Runtime props
+appear under NightPost during Play. Classic Dispatch admits up to four couriers independently of the tour stands.
+
+SAVES
+Local Studio play is a practice session. Stop resets the practice record.
+In a published Roblox server, DataStoreService saves your coins, successful
+shifts, collected letters, ending and stamps. Skin and equipment ownership
+follow those milestones. Route punches, bought wraps and dated postmarks
+also carry over in published servers. The board shows the current save state.
